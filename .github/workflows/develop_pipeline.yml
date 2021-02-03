@@ -15,9 +15,10 @@ jobs:
     # Job consists of instructions that you want to trigger
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+       
 
       # Checkout our code
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@main
 
       # Switching to Flutter dev branch
       - uses:  ./.github/bhargav1/demoFlutter
